@@ -1,0 +1,102 @@
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 350px;
+    float: left;
+    height: 210px;
+}
+
+div {
+    display: block;
+}
+
+/***** TEXT *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+span {
+    color: #77a466;
+}
+
+#unique {
+    font-family: 'Oleo Script', cursive;
+    text-transform: lowercase;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/***** NAVIGATION BAR *****/
+nav {
+    float: right;
+    padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #77a466;
+    padding-left: 25px;
+}
+
+/***** COLUMNS *****/
+#contact .third-width {
+    border-left: 1px solid #dedbdc;
+    margin-left: 25px;
+    padding-left: 30px;
+}
+
+#menu .third-width {
+    padding-left: 0;
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews .third-width {
+    margin: 0 30px;
+    padding: 0 15px;
+}
+
+#bottom-section {
+    border-top: 1px solid #dedbdc;
+}
+
+
+/***** FOOTER *****/
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #dedbdc;
+}

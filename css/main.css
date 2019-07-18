@@ -1,0 +1,334 @@
+/***** MOBILE *****/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D576B;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.work-image {
+    width: 100%
+}
+
+.work-info {
+    width: 100%;
+}
+
+.header {
+    padding: 0px 0px 40px 0px;
+}
+
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FCFCFC;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.section-header {
+    padding: 30px 30px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+}
+
+.work-info p {
+    padding: 0px 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FCFCFC;
+    line-height: 24px;
+}
+
+.about-info p {
+    padding: 0px 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FCFCFC;
+    line-height: 24px;
+}
+
+.contact-info p {
+    padding: 0px 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FCFCFC;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: #FCFCFC;
+    font-size: 44px;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    color: #FCFCFC; 
+    text-transform: lowercase;
+}
+
+span {
+    color: #F7567C;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+nav ul li {
+    display: inline-flex 
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Monterrat', sans-serif;
+    color: #FCFCFC;
+    padding: 0px 25px;
+}
+
+/***** CONNECT *****/
+.contact-info {
+    text-align: center;
+    justify-content: center;
+}
+
+.social-links ul {
+    list-style: none
+}
+
+.social-links ul li {
+    display: inline-block;
+    background-color: #F7567C;
+    margin: 15px; 
+    border-radius: 50%;
+}
+
+.social-links ul li a {
+    color: #5D576B;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    height: 75px;
+    width: 75px;
+}
+
+#hire-info a {
+    text-decoration: none;
+    color: #FCFCFC;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        background: url('../img/banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        padding-bottom: 30px;
+        height: 400px;
+        clear: both;
+        justify-content: center;
+    }
+    
+    .wrapper-2 {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .page-top p {
+        text-align: left;
+        width: 384px;
+        float: left;
+        padding: 15px 0px 0px 30px;
+    }
+
+    nav {
+        float: right;
+        width: 354px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .header h1 {
+        padding-left: 84px;
+        clear: both;
+        /*justify-content: center;
+        height: 100%;*/
+        padding-top: 150px; /*Place holder until I can figure out how to align this element properly*/
+    }
+
+    #about {
+        background-image: url('../img/about.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-left: calc(-100vw / 2 + 600px / 2);
+        margin-right: calc(-100vw / 2 + 600px / 2);
+        padding-bottom: 30px;
+    }
+
+    .about-info p {
+        color: #FCFCFC;
+        font-size: 20px;
+    }
+
+    .section-header {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper-2 {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .page-top p {
+        font-size: 18pt;
+        width: 50%;
+
+    }
+    
+    nav {
+        width: 40%;
+        padding: 15px 0px 0px 0px;
+        margin: 0px;
+        text-align: right;
+    }
+
+    nav ul li a {
+        font-size: 18pt;
+        font-weight: 500;
+    }
+
+    .header h1 {
+        padding-top: 300px;
+        font-size: 96px;
+    }
+
+    #jubilee-image {
+        width: 450px;
+        float: left;
+        padding: 0px 25px 15px 0px;
+    }
+
+    #jubilee-info {
+        width: 450px;
+        float: left;
+        padding: 0px 0px 15px 25px;
+        justify-content: center;
+    }
+    
+    #rogue-image {
+        width: 450px;
+        float: left;
+        clear: both;
+        padding: 15px 25px 15px 0px;
+    }
+    
+    #rogue-info {
+        width: 450px;
+        float: left;
+        padding: 15px 0px 15px 25px;
+    }
+
+    /*#rogue-info p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }*/
+
+    #holstee-image {
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+        float: left;
+        clear: both;
+        padding: 15px 25px 30px 0px;
+    }
+
+    #holstee-info {
+        width: 450px;
+        float: left;
+        padding: 15px 0px 30px 25px;
+    }
+
+    #about {
+        clear: both;
+        margin-left: calc(-100vw / 2 + 1000px / 2);
+        margin-right: calc(-100vw / 2 + 1000px / 2);
+        height: 550px;
+        justify-content: center;
+    }
+
+    .about-info {
+        width: 65%;
+    }
+
+    .about-info p {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .work-info p {
+        font-size: 20px;
+    }
+
+    #hire-info {
+        float: left;
+        padding-right: 25px;
+    }
+
+    #social-info {
+        float: left;
+        padding-right: 25px;
+    }
+
+    #meet-info {
+        float: left;
+    }
+
+    footer {
+        clear: both;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .section-header {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    .section-header h2 {
+        font-size: 48px;
+    }
+}
