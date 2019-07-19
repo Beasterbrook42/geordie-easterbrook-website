@@ -291,9 +291,9 @@ footer {
         justify-content: center;
     }
 
-    .about-info {
+    /*.about-info {
         width: 65%;
-    }
+    }*/
 
     .about-info p {
         font-size: 32px;
