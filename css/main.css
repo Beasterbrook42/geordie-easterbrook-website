@@ -291,6 +291,10 @@ footer {
         justify-content: center;
     }
 
+    .about-info {
+        width: 100%;
+    }
+
     .about-info p {
         font-size: 32px;
         line-height: 35px;
